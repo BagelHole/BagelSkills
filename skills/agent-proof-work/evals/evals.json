@@ -1,0 +1,15 @@
+{
+  "skill_name": "agent-proof-work",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Turn this feature request into a task I can hand to Codex: add CSV export to our Laravel admin, but do not alter customer-facing routes.",
+      "expected_output": "Produces a standalone contract with discovery paths, boundaries, acceptance behavior, Laravel checks, evidence, and escalation conditions."
+    },
+    {
+      "id": 2,
+      "prompt": "Our agents keep \u201cfixing\u201d flaky tests by deleting assertions. Rewrite the maintenance ticket so that cannot count as success.",
+      "expected_output": "Defines protected test intent, root-cause outcome, allowed changes, proof, and explicit prohibited shortcuts."
+    }
+  ]
+}

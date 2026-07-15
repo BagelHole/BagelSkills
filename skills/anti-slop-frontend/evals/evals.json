@@ -1,0 +1,15 @@
+{
+  "skill_name": "anti-slop-frontend",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build a pricing page for a developer observability product. Make it memorable and not like generic AI SaaS.",
+      "expected_output": "Creates a product-specific visual thesis, implements complete responsive states, audits common AI tropes, and verifies screenshots plus accessibility."
+    },
+    {
+      "id": 2,
+      "prompt": "This dashboard works but looks like twenty identical cards. Redesign it without changing the data.",
+      "expected_output": "Diagnoses hierarchy and density, reduces indiscriminate containers, preserves information, and validates desktop/mobile renders."
+    }
+  ]
+}

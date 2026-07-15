@@ -1,0 +1,15 @@
+{
+  "skill_name": "scope-sniper",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We have six weeks to launch an AI recruiting marketplace with profiles, chat, scheduling, payments, and matching. Scope the real MVP.",
+      "expected_output": "Identifies the riskiest market assumption, creates a thin value path, cuts unsupported systems, preserves trust, and defines evidence thresholds."
+    },
+    {
+      "id": 2,
+      "prompt": "This internal migration plan has 40 tasks. Find a smaller proof slice before we commit to the full move.",
+      "expected_output": "Creates a reversible tracer slice with technical success criteria and rollout boundaries rather than arbitrarily removing mandatory migration work."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "query": "We announce this SaaS tomorrow. Audit the staging build and tell me whether we should launch. Do not submit payments or send emails.",
+    "should_trigger": true
+  },
+  {
+    "query": "We are rolling out a risky data migration to all customers Friday. Run launch forensics on the rollout plan.",
+    "should_trigger": true
+  },
+  {
+    "query": "Give me ten SEO keyword ideas for our blog.",
+    "should_trigger": false
+  }
+]

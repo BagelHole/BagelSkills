@@ -1,0 +1,14 @@
+[
+  {
+    "query": "Should our startup build search in Postgres, adopt Elasticsearch, or buy Algolia? Put the decision through a tribunal.",
+    "should_trigger": true
+  },
+  {
+    "query": "The team is split between a monolith and microservices for a new product. Challenge both camps.",
+    "should_trigger": true
+  },
+  {
+    "query": "Should this local variable be called item or record?",
+    "should_trigger": false
+  }
+]

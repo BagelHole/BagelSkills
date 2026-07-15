@@ -1,0 +1,15 @@
+{
+  "skill_name": "blast-radius",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We want to rename a public API field used by web, mobile, and partners. Map the blast radius and safe migration before we code it.",
+      "expected_output": "Discovers coded and external consumers, handles old clients, proposes compatibility and contract tests, and defines staged deprecation plus rollback limits."
+    },
+    {
+      "id": 2,
+      "prompt": "What breaks if we switch user IDs from integers to UUIDs across this platform?",
+      "expected_output": "Traces schemas, serialization, caches, analytics, URLs, integrations, migrations, and operations; ranks propagation and containment."
+    }
+  ]
+}

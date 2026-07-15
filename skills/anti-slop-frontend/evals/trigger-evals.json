@@ -1,0 +1,14 @@
+[
+  {
+    "query": "Build a pricing page for a developer observability product. Make it memorable and not like generic AI SaaS.",
+    "should_trigger": true
+  },
+  {
+    "query": "This dashboard works but looks like twenty identical cards. Redesign it without changing the data.",
+    "should_trigger": true
+  },
+  {
+    "query": "Add an index to this database table.",
+    "should_trigger": false
+  }
+]

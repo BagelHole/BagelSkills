@@ -1,0 +1,14 @@
+[
+  {
+    "query": "Test our staging signup and first-project flow like a brand-new freelancer. Do not send any invitations.",
+    "should_trigger": true
+  },
+  {
+    "query": "Users abandon checkout on mobile. Hunt for likely UX friction and give us evidence.",
+    "should_trigger": true
+  },
+  {
+    "query": "Choose a new brand color for the app.",
+    "should_trigger": false
+  }
+]

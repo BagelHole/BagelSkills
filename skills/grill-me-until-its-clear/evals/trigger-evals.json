@@ -1,0 +1,14 @@
+[
+  {
+    "query": "I have an idea for an AI app that makes team meetings way better. Grill me until it is ready for an engineer.",
+    "should_trigger": true
+  },
+  {
+    "query": "We need SSO for enterprise customers. Help me uncover everything we have not decided before the team estimates it.",
+    "should_trigger": true
+  },
+  {
+    "query": "Change the button label from Save to Update.",
+    "should_trigger": false
+  }
+]

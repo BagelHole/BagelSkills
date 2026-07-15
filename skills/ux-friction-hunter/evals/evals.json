@@ -1,0 +1,15 @@
+{
+  "skill_name": "ux-friction-hunter",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Test our staging signup and first-project flow like a brand-new freelancer. Do not send any invitations.",
+      "expected_output": "Defines missions and safety bounds, executes observable journeys, probes states, and reports reproducible friction without sending invitations."
+    },
+    {
+      "id": 2,
+      "prompt": "Users abandon checkout on mobile. Hunt for likely UX friction and give us evidence.",
+      "expected_output": "Tests narrow viewport and interruption/error cases, avoids claiming causality from one run, and ranks evidence-backed findings."
+    }
+  ]
+}

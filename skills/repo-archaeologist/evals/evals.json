@@ -1,0 +1,15 @@
+{
+  "skill_name": "repo-archaeologist",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need to change authorization in this eight-year-old monolith. Explain the architecture and why there are two permission systems before I touch it.",
+      "expected_output": "Maps runtime authorization paths, excavates migration history, labels rationale confidence, and gives a change-specific safe reading path."
+    },
+    {
+      "id": 2,
+      "prompt": "Onboard me to this repo, but focus on the dangerous historical seams rather than listing folders.",
+      "expected_output": "Produces an evidence-based field guide, chronology, hotspots, and maintainer questions."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "query": "We want to rename a public API field used by web, mobile, and partners. Map the blast radius and safe migration before we code it.",
+    "should_trigger": true
+  },
+  {
+    "query": "What breaks if we switch user IDs from integers to UUIDs across this platform?",
+    "should_trigger": true
+  },
+  {
+    "query": "Fix the typo in this private helper name.",
+    "should_trigger": false
+  }
+]

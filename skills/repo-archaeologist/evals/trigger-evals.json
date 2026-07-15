@@ -1,0 +1,14 @@
+[
+  {
+    "query": "I need to change authorization in this eight-year-old monolith. Explain the architecture and why there are two permission systems before I touch it.",
+    "should_trigger": true
+  },
+  {
+    "query": "Onboard me to this repo, but focus on the dangerous historical seams rather than listing folders.",
+    "should_trigger": true
+  },
+  {
+    "query": "Where is the User model defined?",
+    "should_trigger": false
+  }
+]

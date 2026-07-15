@@ -1,0 +1,14 @@
+[
+  {
+    "query": "We have six weeks to launch an AI recruiting marketplace with profiles, chat, scheduling, payments, and matching. Scope the real MVP.",
+    "should_trigger": true
+  },
+  {
+    "query": "This internal migration plan has 40 tasks. Find a smaller proof slice before we commit to the full move.",
+    "should_trigger": true
+  },
+  {
+    "query": "Implement the approved checkout tickets in this sprint.",
+    "should_trigger": false
+  }
+]

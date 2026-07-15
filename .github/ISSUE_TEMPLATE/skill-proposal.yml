@@ -1,0 +1,32 @@
+name: Skill proposal
+description: Propose a new skill or a material workflow improvement
+title: "[Skill]: "
+labels: [enhancement]
+body:
+  - type: input
+    id: trigger
+    attributes:
+      label: Trigger
+      description: What realistic user request should load this skill?
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: Default agent failure
+      description: What does an unskilled agent repeatedly get wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Procedural advantage
+      description: What specific process would change that behavior?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or eval idea
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+{
+  "skill_name": "grill-me-until-its-clear",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have an idea for an AI app that makes team meetings way better. Grill me until it is ready for an engineer.",
+      "expected_output": "Asks ranked, adaptive questions; surfaces users, value, data/privacy, workflow, failure modes, and success measures; finishes with a decision-complete brief rather than code."
+    },
+    {
+      "id": 2,
+      "prompt": "We need SSO for enterprise customers. Help me uncover everything we have not decided before the team estimates it.",
+      "expected_output": "Separates outcome from SSO implementation, resolves providers/protocols, tenancy, provisioning, recovery, migration, audit and acceptance behavior."
+    }
+  ]
+}

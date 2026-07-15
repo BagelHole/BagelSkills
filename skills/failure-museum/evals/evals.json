@@ -1,0 +1,15 @@
+{
+  "skill_name": "failure-museum",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Mine the last year of this repo and tell me the three ways we repeatedly break production, with tests we should add.",
+      "expected_output": "Uses traceable history, reconstructs mechanisms conservatively, checks current defenses, and recommends specific regression coverage."
+    },
+    {
+      "id": 2,
+      "prompt": "Why do our database migrations keep needing hotfixes? Build a failure museum from commits and incident docs.",
+      "expected_output": "Clusters migration failure mechanisms and distinguishes evidence, inference, existing defenses, and missing controls."
+    }
+  ]
+}

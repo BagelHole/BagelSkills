@@ -1,0 +1,14 @@
+[
+  {
+    "query": "Mine the last year of this repo and tell me the three ways we repeatedly break production, with tests we should add.",
+    "should_trigger": true
+  },
+  {
+    "query": "Why do our database migrations keep needing hotfixes? Build a failure museum from commits and incident docs.",
+    "should_trigger": true
+  },
+  {
+    "query": "The login endpoint is returning 500 right now. Fix it.",
+    "should_trigger": false
+  }
+]

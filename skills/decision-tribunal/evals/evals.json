@@ -1,0 +1,15 @@
+{
+  "skill_name": "decision-tribunal",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Should our startup build search in Postgres, adopt Elasticsearch, or buy Algolia? Put the decision through a tribunal.",
+      "expected_output": "Clarifies scale and constraints, uses symmetric evidence, explores failure/migration, proposes experiments, and gives a conditional recommendation plus dissent."
+    },
+    {
+      "id": 2,
+      "prompt": "The team is split between a monolith and microservices for a new product. Challenge both camps.",
+      "expected_output": "Steelmans both under shared criteria, examines organizational and operational assumptions, and avoids framework ideology."
+    }
+  ]
+}

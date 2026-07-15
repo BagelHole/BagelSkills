@@ -1,0 +1,15 @@
+{
+  "skill_name": "launch-forensics",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We announce this SaaS tomorrow. Audit the staging build and tell me whether we should launch. Do not submit payments or send emails.",
+      "expected_output": "Defines criteria and safety, tests safe journeys and operational evidence, marks forbidden paths unverified, and issues a scoped verdict."
+    },
+    {
+      "id": 2,
+      "prompt": "We are rolling out a risky data migration to all customers Friday. Run launch forensics on the rollout plan.",
+      "expected_output": "Focuses on artifact, compatibility, observability, staged deployment, rollback, and data recovery with go/no-go criteria."
+    }
+  ]
+}

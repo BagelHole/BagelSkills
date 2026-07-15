@@ -1,0 +1,14 @@
+[
+  {
+    "query": "Turn this feature request into a task I can hand to Codex: add CSV export to our Laravel admin, but do not alter customer-facing routes.",
+    "should_trigger": true
+  },
+  {
+    "query": "Our agents keep \u201cfixing\u201d flaky tests by deleting assertions. Rewrite the maintenance ticket so that cannot count as success.",
+    "should_trigger": true
+  },
+  {
+    "query": "Please directly rename this file and commit it.",
+    "should_trigger": false
+  }
+]
