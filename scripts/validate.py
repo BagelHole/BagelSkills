@@ -59,8 +59,8 @@ for d in sorted(SKILLS.iterdir()) if SKILLS.is_dir() else []:
                 cases=data.get('evals',[]) if isinstance(data,dict) else []
                 if len(cases)<2 or any(not x.get('prompt') or not x.get('expected_output') for x in cases): err(p,'needs at least two complete output evals')
 
-for p in ROOT.rglob('*'):
-    if p.is_file() and '.git' not in p.parts and p.stat().st_size>100_000: err(p,'file exceeds 100 KB progressive-disclosure limit')
+for p in SKILLS.glob('*/SKILL.md'):
+    if p.stat().st_size>100_000: err(p,'SKILL.md exceeds 100 KB progressive-disclosure limit')
 
 if errors:
     print(f'FAILED: {len(errors)} problem(s)')

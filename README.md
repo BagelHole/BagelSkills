@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/bagelskills-banner.svg" alt="BagelSkills — 10 powerful Agent Skills" width="100%">
+<img src="assets/bagelskills-banner.png" alt="BagelSkills — 10 powerful Agent Skills" width="100%">
 
 # BagelSkills
 
